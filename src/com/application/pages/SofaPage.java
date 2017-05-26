@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 public class SofaPage {
 
@@ -44,7 +45,7 @@ public class SofaPage {
 		
 		Set<String> wh = driver.getWindowHandles();
 		Iterator<String> itr = wh.iterator();
-		String home= itr.next();
+		itr.next();
 		String sofa = itr.next();
 		driver.switchTo().window(sofa);
 		
@@ -55,28 +56,44 @@ public class SofaPage {
 		
 		//wait.until(ExpectedConditions.visibilityOf(addToC//a[@title='Books']artButton));
 		addToCartButton.click();
+		Reporter.log("clicks on add to cart button", true);
+
 		
 	    //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='cartContainer col-xs-11 reset-padding']")));
 		Thread.sleep(3000);
 		cart.click();
+		Reporter.log("Clicks on cart icon", true);
+
 
 		//wait.until(ExpectedConditions.visibilityOf(remove));
 		Thread.sleep(3000);
 		remove.click();
+		Reporter.log("Clicks on Remove", true);
+
 
 		Thread.sleep(3000);
 		books.click();
+		Reporter.log("Clicks on Books", true);
+
 		
 		Thread.sleep(3000);
 		ceIcon.click();
+		Reporter.log("Clicks on Competitive Exams", true);
+
 		
 		Thread.sleep(3000);
 		sortByDropdown.click();
+		Reporter.log("Clicks on Sort By Dropdown", true);
+
 		
 		Thread.sleep(3000);
 		freshArrivalDropdown.click();
+		Reporter.log("Clicks on Fresh Arrivals option", true);
+
 		
 		driver.findElement(By.id("660569015061")).click();
+		Reporter.log("Clicks on particular Book", true);
+
 		Thread.sleep(3000);
 		
 	}

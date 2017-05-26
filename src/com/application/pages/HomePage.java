@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 
 public class HomePage  {
@@ -28,10 +29,16 @@ public class HomePage  {
 		public void Action() throws InterruptedException{
 
 			searchTextField.sendKeys("sofa");
+			Reporter.log("Enters Search item", true);
+			
 			searchButton.click();
-			firstSofa.click();
+			Reporter.log("Clicks on search Button", true);
 
-			Thread.sleep(3000);
+			firstSofa.click();
+			Reporter.log("Clicks on the item", true);
+
+
+			Thread.sleep(5000);
 			
 			
 

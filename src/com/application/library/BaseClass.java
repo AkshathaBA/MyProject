@@ -57,7 +57,6 @@ public class BaseClass {
 	
 	@AfterClass
 	public void quit(){
-		
 		driver.quit();
 	}
 	

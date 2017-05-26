@@ -1,29 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Enters Search item]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on search Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on the item]]>
+    </line>
+    <line>
+      <![CDATA[clicks on add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on cart icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on Remove]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on Books]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on Competitive Exams]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on Sort By Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on Fresh Arrivals option]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on particular Book]]>
+    </line>
+    <line>
+      <![CDATA[Enters pin code]]>
+    </line>
+    <line>
+      <![CDATA[Clicks on Check Button]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35860" started-at="2017-05-26T03:54:47Z" finished-at="2017-05-26T03:55:23Z">
+  <suite name="Default suite" duration-ms="43744" started-at="2017-05-26T07:39:19Z" finished-at="2017-05-26T07:40:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35860" started-at="2017-05-26T03:54:47Z" finished-at="2017-05-26T03:55:23Z">
+    <test name="Default test" duration-ms="43744" started-at="2017-05-26T07:39:19Z" finished-at="2017-05-26T07:40:03Z">
       <class name="com.application.tests.TestClass">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="launch" is-config="true" duration-ms="5337" started-at="2017-05-26T09:24:47Z" finished-at="2017-05-26T09:24:53Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="launch" is-config="true" duration-ms="11997" started-at="2017-05-26T13:09:19Z" finished-at="2017-05-26T13:09:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="login" is-config="true" duration-ms="0" started-at="2017-05-26T09:24:53Z" finished-at="2017-05-26T09:24:53Z">
+        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="testHome" duration-ms="31722" started-at="2017-05-26T13:09:31Z" finished-at="2017-05-26T13:10:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Enters Search item]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on search Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on the item]]>
+            </line>
+            <line>
+              <![CDATA[clicks on add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on cart icon]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on Remove]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on Books]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on Competitive Exams]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on Sort By Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on Fresh Arrivals option]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on particular Book]]>
+            </line>
+            <line>
+              <![CDATA[Enters pin code]]>
+            </line>
+            <line>
+              <![CDATA[Clicks on Check Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHome -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="login" is-config="true" duration-ms="0" started-at="2017-05-26T13:09:31Z" finished-at="2017-05-26T13:09:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="testHome" duration-ms="30168" started-at="2017-05-26T09:24:53Z" finished-at="2017-05-26T09:25:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHome -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-26T09:25:23Z" finished-at="2017-05-26T09:25:23Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-26T13:10:03Z" finished-at="2017-05-26T13:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="quit" is-config="true" duration-ms="333" started-at="2017-05-26T09:25:23Z" finished-at="2017-05-26T09:25:23Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="quit" is-config="true" duration-ms="0" started-at="2017-05-26T13:10:03Z" finished-at="2017-05-26T13:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
