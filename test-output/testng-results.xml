@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35860" started-at="2017-05-26T03:54:47Z" finished-at="2017-05-26T03:55:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35860" started-at="2017-05-26T03:54:47Z" finished-at="2017-05-26T03:55:23Z">
+      <class name="com.application.tests.TestClass">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="launch" is-config="true" duration-ms="5337" started-at="2017-05-26T09:24:47Z" finished-at="2017-05-26T09:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="login" is-config="true" duration-ms="0" started-at="2017-05-26T09:24:53Z" finished-at="2017-05-26T09:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="testHome" duration-ms="30168" started-at="2017-05-26T09:24:53Z" finished-at="2017-05-26T09:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHome -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-26T09:25:23Z" finished-at="2017-05-26T09:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@643b1d11]" name="quit" is-config="true" duration-ms="333" started-at="2017-05-26T09:25:23Z" finished-at="2017-05-26T09:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.application.tests.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
