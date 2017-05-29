@@ -41,16 +41,16 @@
       <![CDATA[Clicks on Check Button]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43744" started-at="2017-05-26T07:39:19Z" finished-at="2017-05-26T07:40:03Z">
+  <suite name="Default suite" duration-ms="37268" started-at="2017-05-29T04:54:01Z" finished-at="2017-05-29T04:54:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43744" started-at="2017-05-26T07:39:19Z" finished-at="2017-05-26T07:40:03Z">
+    <test name="Default test" duration-ms="37268" started-at="2017-05-29T04:54:01Z" finished-at="2017-05-29T04:54:38Z">
       <class name="com.application.tests.TestClass">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="launch" is-config="true" duration-ms="11997" started-at="2017-05-26T13:09:19Z" finished-at="2017-05-26T13:09:31Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="launch" is-config="true" duration-ms="6473" started-at="2017-05-29T10:24:01Z" finished-at="2017-05-29T10:24:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="testHome" duration-ms="31722" started-at="2017-05-26T13:09:31Z" finished-at="2017-05-26T13:10:03Z">
+        <test-method status="PASS" signature="testHome()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="testHome" duration-ms="30765" started-at="2017-05-29T10:24:07Z" finished-at="2017-05-29T10:24:38Z">
           <reporter-output>
             <line>
               <![CDATA[Enters Search item]]>
@@ -93,15 +93,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- testHome -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="login" is-config="true" duration-ms="0" started-at="2017-05-26T13:09:31Z" finished-at="2017-05-26T13:09:31Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="login" is-config="true" duration-ms="0" started-at="2017-05-29T10:24:07Z" finished-at="2017-05-29T10:24:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-26T13:10:03Z" finished-at="2017-05-26T13:10:03Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-29T10:24:38Z" finished-at="2017-05-29T10:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="quit" is-config="true" duration-ms="0" started-at="2017-05-26T13:10:03Z" finished-at="2017-05-26T13:10:03Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.application.tests.TestClass@51efea79]" name="quit" is-config="true" duration-ms="0" started-at="2017-05-29T10:24:38Z" finished-at="2017-05-29T10:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

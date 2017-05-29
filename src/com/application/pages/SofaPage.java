@@ -42,7 +42,6 @@ public class SofaPage {
 	
 	public void sofaAction() throws InterruptedException{
 		
-		
 		Set<String> wh = driver.getWindowHandles();
 		Iterator<String> itr = wh.iterator();
 		itr.next();

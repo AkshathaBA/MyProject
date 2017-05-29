@@ -17,7 +17,7 @@ public class HomePage  {
 		@FindBy(xpath="//button[@class='searchformButton col-xs-4 rippleGrey']")
 		private WebElement searchButton;
 		
-		@FindBy(xpath="//p[@title='Bharat Lifestyle Tulip Fabric 3 Seater Sofa']")
+		@FindBy(xpath="//p[@title='BLS Tulip Brown & Cream 3+1+1 Seater Sofa Set']")
 		private WebElement firstSofa;
 		
 		public HomePage(WebDriver driver){
