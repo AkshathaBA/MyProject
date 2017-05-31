@@ -5,10 +5,9 @@
     <classes>
       <class name="com.application.tests.TestClass">
         <methods>
-          <include name="logout"/>
           <include name="launch"/>
           <include name="quit"/>
-          <include name="login"/>
+          <include name="invalidLogin"/>
           <include name="testHome"/>
         </methods>
       </class> <!-- com.application.tests.TestClass -->

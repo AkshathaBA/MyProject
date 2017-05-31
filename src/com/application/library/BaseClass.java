@@ -32,6 +32,7 @@ public class BaseClass {
 			System.setProperty("webdriver.chrome.driver","chromedriver");
 			driver = new ChromeDriver();
 		}
+		
 		else if(browser.toLowerCase().equals("ie")){
 			System.setProperty("webdriver.ie.driver","IEDriverServer");
 			driver = new InternetExplorerDriver();
@@ -41,10 +42,11 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		driver.get(url);
+		driver.manage().window().maximize();
 		
 	}
 	
-	@BeforeMethod
+	/*@BeforeMethod
 	public void login(){
 		//code for login if required
 	}
@@ -52,7 +54,7 @@ public class BaseClass {
 	@AfterMethod
 	public void logout(){
 		//code for logout
-	}
+	}*/
 	
 	@AfterClass
 	public void quit(){

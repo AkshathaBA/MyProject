@@ -28,72 +28,61 @@ public class SofaPage {
 	
 	@FindBy(xpath="//div[@data-alt='Competitive Exams']")
 	private WebElement ceIcon;
-	
-	@FindBy(xpath="//div[@class='sorting-sec animBounce']")
-	private WebElement sortByDropdown;
-	
-	@FindBy(xpath="//ul[@class='sort-value']/li[5]")
-	private WebElement freshArrivalDropdown;
-	
+
+
 	public SofaPage(WebDriver driver){
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void sofaAction() throws InterruptedException{
-		
+	
+	public void switchToSofaTab() throws InterruptedException{
 		Set<String> wh = driver.getWindowHandles();
 		Iterator<String> itr = wh.iterator();
-		itr.next();
+		String home = itr.next();
 		String sofa = itr.next();
+		
+		driver.close();
+		Thread.sleep(3000);
 		driver.switchTo().window(sofa);
 		
 		//we can use array list also instead of set
-		/*ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
-		tabs2.get(1);
-		driver.switchTo().window(tabs2.get(1));*/
-		
+				/*ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+				tabs2.get(1);
+				driver.switchTo().window(tabs2.get(1));*/
+	}
+	
+	public void clickAddToCartBotton(){
 		//wait.until(ExpectedConditions.visibilityOf(addToC//a[@title='Books']artButton));
 		addToCartButton.click();
 		Reporter.log("clicks on add to cart button", true);
-
-		
-	    //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='cartContainer col-xs-11 reset-padding']")));
+	}
+	
+	public void ClickCartIcon() throws InterruptedException{
+		//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='cartContainer col-xs-11 reset-padding']")));
 		Thread.sleep(3000);
 		cart.click();
 		Reporter.log("Clicks on cart icon", true);
-
-
+	}
+	
+	public void clickRemove() throws InterruptedException{
 		//wait.until(ExpectedConditions.visibilityOf(remove));
 		Thread.sleep(3000);
 		remove.click();
 		Reporter.log("Clicks on Remove", true);
-
-
+	}
+	
+	public void clickBooks() throws InterruptedException{
 		Thread.sleep(3000);
 		books.click();
 		Reporter.log("Clicks on Books", true);
-
-		
+	}
+	
+	
+	public void clickCompetitiveExamTab() throws InterruptedException{
 		Thread.sleep(3000);
 		ceIcon.click();
 		Reporter.log("Clicks on Competitive Exams", true);
-
-		
-		Thread.sleep(3000);
-		sortByDropdown.click();
-		Reporter.log("Clicks on Sort By Dropdown", true);
-
-		
-		Thread.sleep(3000);
-		freshArrivalDropdown.click();
-		Reporter.log("Clicks on Fresh Arrivals option", true);
-
-		
-		driver.findElement(By.id("660569015061")).click();
-		Reporter.log("Clicks on particular Book", true);
-
-		Thread.sleep(3000);
 		
 	}
 	

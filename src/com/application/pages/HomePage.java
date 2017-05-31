@@ -17,32 +17,32 @@ public class HomePage  {
 		@FindBy(xpath="//button[@class='searchformButton col-xs-4 rippleGrey']")
 		private WebElement searchButton;
 		
-		@FindBy(xpath="//p[@title='BLS Tulip Brown & Cream 3+1+1 Seater Sofa Set']")
+		@FindBy(xpath="//img[@title='BLS Tulip Brown & Cream 3+1+1 Seater Sofa Set']")
 		private WebElement firstSofa;
 		
 		public HomePage(WebDriver driver){
 			this.driver = driver;
 			PageFactory.initElements(driver, this);
 		}
+	
+		public void enterSearchItem(String item){
+			searchTextField.sendKeys(item);
+			Reporter.log("Enters Search item", true);
+		}
 		
+		public void clickSearchButton(){
+			searchButton.click();
+			Reporter.log("Clicks on search Button", true);
+		}
+		
+		public void clickItem(){
+			firstSofa.click();
+			Reporter.log("Clicks on the item", true);
+		}
 		
 		public void Action() throws InterruptedException{
 
-			searchTextField.sendKeys("sofa");
-			Reporter.log("Enters Search item", true);
-			
-			searchButton.click();
-			Reporter.log("Clicks on search Button", true);
-
-			firstSofa.click();
-			Reporter.log("Clicks on the item", true);
-
-
-			Thread.sleep(5000);
 			
 			
-
 		}
-	
-	
 }
